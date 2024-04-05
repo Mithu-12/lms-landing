@@ -93,14 +93,14 @@
 
 @media screen and (max-width: 768px) {
   .nav-items {
-    display: none; /* Hide nav items on small screens */
+    display: none; 
   }
 
   .login {
-    display: none; /* Hide login button on small screens (optional) */
+    display: none; 
   }
 
   .menu-icon {
-    display: block; /* Show menu icon on small screens */
+    display: block; 
   }
 }
