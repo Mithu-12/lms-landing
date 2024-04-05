@@ -1,0 +1,68 @@
+.offer-container {
+    height: 600px;
+  }
+  .timer div:first-child p {
+    color: #f8f8f8;
+  }
+  .timer div:last-child {
+    /* border: 2px solid rgb(253, 46, 150); */
+    border-radius: 3px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* margin: 3em; */
+    padding: 15px;
+    text-align: center;
+  }
+  .timeSet {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .timeSet span {
+    margin-top: 40px;
+  }
+  .singleTime{
+    border: 4px dashed rgba(255, 255, 255, 0.5);
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  .timer section p:last-child {
+    /* border: 2px solid rgba(0, 0, 0, 0.8); */
+    /* background-color: rgb(252, 103, 92); */
+    border-radius: 3px;
+    padding-left: 2px;
+    font-size: 36px;
+    font-weight: 400;
+    color: #f8f8f8;
+  }
+  .time {
+ 
+  }
+  .text{
+    /* margin-top: 30px; */
+    padding: 20px;
+  }
+  .timeColor {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    border-radius: 20px;
+    padding-bottom: 10px;
+  }
+  @media only screen and (max-width: 500px) {
+    .timeSet {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .timer section p:last-child {
+      border: 1px solid black;
+      background-color: black;
+      border-radius: 3px;
+      padding-left: 2px;
+      font-size: 16px;
+      font-weight: 400;
+      color: #f8f8f8;
+    }
+    .offer-container{
+        height: 400px;
+    }
+  }
+  
